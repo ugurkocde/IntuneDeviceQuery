@@ -1,0 +1,3 @@
+Certificate
+| where ValidToDateTime > now()
+| project ValidToDateTime, SubjectName, CommonName
