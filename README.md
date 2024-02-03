@@ -11,9 +11,9 @@
 
 # Overview
 
-In this repo you will find a lot of KQL Queries that you can copy and paste and run them in Intune.
+This repository contains a wide array of KQL Queries ready for you to easily copy, paste, and execute within Intune.
 
-You can find more KQL Queries here at [KQLSearch.com](https://www.KQLSearch.com)
+You can find more KQL Queries here -> [KQLSearch.com](https://www.KQLSearch.com)
 
 # What is Device Query in Intune?
 
