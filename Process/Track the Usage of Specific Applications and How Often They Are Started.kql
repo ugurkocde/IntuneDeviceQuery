@@ -1,0 +1,5 @@
+Process
+| where isnotnull(ProcessName) and isnotnull(StartDateTime) // Ensure fields are not null
+| summarize Count = count() by ProcessName, bin(StartDateTime, 1d) // Aggregate counts by day and ProcessName
+| order by Count desc
+| project ProcessName, Count

@@ -1,0 +1,7 @@
+Process
+| where not(Path contains 'C:\\Windows\\' 
+            or Path contains 'C:\\Program Files\\'
+            or Path contains 'C:\\Program Files (x86)\\'
+            or Path contains 'C:\\Users\\')
+| project ProcessId, ProcessName, Path
+| order by ProcessName

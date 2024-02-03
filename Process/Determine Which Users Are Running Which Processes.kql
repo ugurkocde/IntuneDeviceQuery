@@ -1,0 +1,4 @@
+Process
+| project WindowsUserAccount, ProcessName, ProcessId, CommandLine
+| distinct WindowsUserAccount, ProcessName, ProcessId, CommandLine
+| order by WindowsUserAccount, ProcessName

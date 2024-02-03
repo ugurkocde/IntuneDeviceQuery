@@ -1,0 +1,4 @@
+Process
+| project ProcessName, ProcessId, CurrentWorkingDirectory, StartDateTime, CommandLine
+| where isnotnull(CurrentWorkingDirectory) and CurrentWorkingDirectory != '' // Filter out null or empty working directories
+| order by ProcessName, StartDateTime

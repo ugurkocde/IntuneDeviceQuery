@@ -1,0 +1,4 @@
+Process
+| where OnDisk == true
+| project ProcessName, Path, WorkingSetSizeMB = WorkingSetSizeBytes / (1024 * 1024), OnDisk
+| order by WorkingSetSizeMB desc

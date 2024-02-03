@@ -1,0 +1,4 @@
+Process
+| project ProcessName, StartDateTime, ElapsedTimeInMinutes = ElapsedTimeMilliseconds / 60000, ElapsedTimeMilliseconds
+| where ElapsedTimeMilliseconds > 0 // Ensures we focus on processes that have started and have a measurable duration
+| order by ElapsedTimeInMinutes desc // Orders the results to highlight processes with the longest durations first

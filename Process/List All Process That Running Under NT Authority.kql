@@ -1,0 +1,3 @@
+Process
+| where WindowsUserAccount startswith 'NT AUTHORITY'
+| project ProcessId, ProcessName, Path, CommandLine, WindowsUserAccount, StartDateTime

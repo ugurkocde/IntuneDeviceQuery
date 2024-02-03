@@ -1,0 +1,2 @@
+WindowsDriver
+| summarize Count=count() by ProviderName

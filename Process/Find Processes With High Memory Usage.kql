@@ -1,0 +1,4 @@
+Process
+| summarize AvgMemoryUsageBytes=avg(WorkingSetSizeBytes), MaxMemoryUsageBytes=max(WorkingSetSizeBytes), MinMemoryUsageBytes=min(WorkingSetSizeBytes) by ProcessName
+| order by AvgMemoryUsageBytes desc
+| project ProcessName, AvgMemoryUsageBytes, MaxMemoryUsageBytes, MinMemoryUsageBytes

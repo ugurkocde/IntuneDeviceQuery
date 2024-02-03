@@ -1,0 +1,4 @@
+Process
+| project ProcessName, StartDateTime, ElapsedTimeInMinutes = ElapsedTimeMilliseconds / 60000, ThreadCount, HandleCount
+| where ElapsedTimeInMinutes > 0 // Ensuring we only look at processes that have a reported elapsed time
+| order by ElapsedTimeInMinutes desc, ThreadCount desc, HandleCount desc
