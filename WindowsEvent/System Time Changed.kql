@@ -1,2 +1,6 @@
+Use Case: Identifying instances of system time changes for security auditing within the last 7 days.
+
+Query:
+
 WindowsEvent('Security', 7d)
 | where tostring(EventId) == '4616'

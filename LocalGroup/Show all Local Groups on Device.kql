@@ -1,1 +1,5 @@
+Use Case: Show all locally available User Groups including Privileged Groups
+
+Query:
+
 LocalGroup

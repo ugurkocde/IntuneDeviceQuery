@@ -1,3 +1,7 @@
+Use Case: Monitoring and identifying high disk I/O activity for processes exceeding 10 MB in either read or write operations to optimize resource usage.
+
+Query:
+
 Process
 | where DiskBytesRead > 10000000 or DiskBytesWritten > 10000000
 | project ProcessId, ProcessName, Path, DiskBytesReadMB = DiskBytesRead / 1048576, DiskBytesWrittenMB = DiskBytesWritten / 1048576

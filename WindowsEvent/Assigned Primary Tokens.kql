@@ -1,4 +1,4 @@
-Use Case:
+Use Case: Monitoring security events to identify potential unauthorized privilege escalations or access attempts within the last 7 days.
 
 Query:
 

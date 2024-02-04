@@ -1,4 +1,4 @@
-Use Case:
+Use Case: Monitoring and alerting on systems that have pending restarts due to recent application installations or updates within the last 7 days.
 
 Query:
 

@@ -1,2 +1,6 @@
+Use Case: Monitoring and alerting on service startup events within the last 7 days in Windows applications.
+
+Query:
+
 WindowsEvent('Application', 7d)
 | where Message contains 'Service started'

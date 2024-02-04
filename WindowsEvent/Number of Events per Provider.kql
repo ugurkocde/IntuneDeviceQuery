@@ -1,2 +1,6 @@
+Use Case: Monitoring the frequency of application events over the past week to identify patterns or anomalies in software behavior by provider.
+
+Query:
+
 WindowsEvent('Application', 7d)
 | summarize EventCount = count() by ProviderName

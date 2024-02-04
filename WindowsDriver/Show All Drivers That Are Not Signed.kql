@@ -1,2 +1,6 @@
+Use Case: Identifying unsigned drivers in a Windows operating system for security auditing and compliance.
+
+Query:
+
 WindowsDriver
-| summarize Count=count() by Manufacturer
+| where Signed != true

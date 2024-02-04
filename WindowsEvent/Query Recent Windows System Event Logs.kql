@@ -1,5 +1,7 @@
 Author: Niklas Tinner (@NiklasTinner)
 
+Use Case: Monitoring and analyzing recent service start events within the last hour on a Windows system for security or operational efficiency purposes.
+
 WindowsEvent('System', 1h)
 | where EventId == 3 // look up only event ID 3 (Service Started)
 | order by LoggedDateTime desc

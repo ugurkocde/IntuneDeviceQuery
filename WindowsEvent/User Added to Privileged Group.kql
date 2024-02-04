@@ -1,2 +1,6 @@
+Use Case: Monitoring for group membership additions in Windows security event logs over the past week to detect potential unauthorized access or privilege escalation.
+
+Query:
+
 WindowsEvent('Security', 7d)
 | where tostring(EventId) == '4728' or tostring(EventId) == '4732' or tostring(EventId) == '4756'

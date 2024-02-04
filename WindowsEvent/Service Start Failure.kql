@@ -1,2 +1,6 @@
+Use Case: Identify and analyze instances of Service Control Manager events where a service fails to start within the past 7 days on Windows systems, specifically focusing on Event ID 7000.
+
+Query:
+
 WindowsEvent('System', 7d)
 | where tostring( EventId) == '7000'

@@ -1,2 +1,6 @@
+Use Case: Monitoring the distribution of signed versus unsigned drivers in a Windows environment.
+
+Query:
+
 WindowsDriver
 | summarize Count=count() by Signed

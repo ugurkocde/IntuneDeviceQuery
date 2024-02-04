@@ -1,4 +1,6 @@
 Author: Niklas Tinner (@NiklasTinner)
 
+Use Case: Check if TPM 2.0 is available.
+
 Tpm
 | where SpecVersion contains '2.0'

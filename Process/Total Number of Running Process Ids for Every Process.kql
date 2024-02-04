@@ -1,3 +1,0 @@
-Process
-| summarize Count=count() by ProcessName
-| order by Count

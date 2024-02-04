@@ -1,4 +1,6 @@
 Author: Niklas Tinner (@NiklasTinner)
 
+Use Case: Monitoring the frequency of application-level events on Windows systems by severity level over the past hour.
+
 WindowsEvent('Application', 1h)
 | summarize count() by Level

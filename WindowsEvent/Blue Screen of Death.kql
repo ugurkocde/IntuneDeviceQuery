@@ -1,4 +1,4 @@
-Use Case: 
+Use Case: IT professionals monitoring system stability by identifying recent critical system errors logged as Event ID 1001 in Windows Event Viewer within the last 7 days.
 
 Query:
 

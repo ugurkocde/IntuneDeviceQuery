@@ -1,3 +1,7 @@
+Use Case: Identifying and analyzing unique processes executed by Windows user accounts while sorting the results by user and process name for security or auditing purposes.
+
+Query:
+
 Process
 | project WindowsUserAccount, ProcessName, ProcessId, CommandLine
 | distinct WindowsUserAccount, ProcessName, ProcessId, CommandLine

@@ -1,3 +1,7 @@
+Use Case: Generating a list of expiring SSL certificates for proactive renewal within the next 90 days.
+
+Query:
+
 Certificate
 | project SubjectName, ValidFromDateTime, ValidToDateTime, CommonName
 | where ValidToDateTime > now() and ValidToDateTime < now() + 90d

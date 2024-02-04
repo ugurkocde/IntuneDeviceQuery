@@ -1,2 +1,6 @@
+Use Case: Monitoring and alerting on the recent shutdown of application services within the last 7 days.
+
+Query:
+
 WindowsEvent('Application', 7d)
 | where Message contains 'Service stopped'

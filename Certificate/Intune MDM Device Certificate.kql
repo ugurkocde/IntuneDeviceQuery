@@ -1,2 +1,6 @@
+Use Case: Managing and monitoring all Intune related certificates.
+
+Query:
+
 Certificate
 | where CommonName contains 'Intune'

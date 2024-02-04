@@ -1,2 +1,7 @@
+Use Case: Identifying and analyzing security-related events, specifically the enabling of a user's right to perform privileged tasks, within the last 7 days in a Windows environment.
+
+
+Query:
+
 WindowsEvent('Security', 7d)
 | where tostring(EventId) == '4704'

@@ -1,2 +1,6 @@
+Use Case: Identifying Windows drivers without an associated INF (Information) file in a system's database.
+
+Query: 
+
 WindowsDriver
 | where isnull(InfName)

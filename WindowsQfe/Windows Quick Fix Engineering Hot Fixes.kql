@@ -1,4 +1,6 @@
 Author: Niklas Tinner (@NiklasTinner)
 
+Use Case: Retrieve a list of Windows Quick Fix Engineering (QFE) updates installed on a system, sorted by their installation date in descending order.
+
 WindowsQfe
 | order by InstalledDate desc

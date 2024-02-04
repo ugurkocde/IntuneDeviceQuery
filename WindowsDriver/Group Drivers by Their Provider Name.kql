@@ -1,2 +1,6 @@
+Use Case: Identifying the most frequently occurring driver providers in a Windows system's event logs.
+
+Query:
+
 WindowsDriver
 | summarize Count=count() by ProviderName

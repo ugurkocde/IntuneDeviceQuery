@@ -1,1 +1,5 @@
+Use Case: Monitoring and troubleshooting application failures in Windows environments.
+
+Query:
+
 WindowsAppCrashEvent
