@@ -1,0 +1,6 @@
+Use Case: Compare the current clock speed against the maximum clock speed to identify if the CPU is being overclocked.
+
+Query:
+
+Cpu
+| project ProcessorId, CurrentClockSpeed, MaxClockSpeed, Overclocked = iif(CurrentClockSpeed > MaxClockSpeed, 'Yes', 'No')

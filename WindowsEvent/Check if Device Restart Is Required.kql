@@ -1,0 +1,6 @@
+Use Case:
+
+Query:
+
+WindowsEvent('Application', 7d)
+| where Message == 'Machine restart is required.'

@@ -1,0 +1,6 @@
+Use Case: 
+
+Query:
+
+WindowsEvent('System', 7d)
+| where tostring(EventId) == '1001'

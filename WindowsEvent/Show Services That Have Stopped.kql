@@ -1,0 +1,2 @@
+WindowsEvent('Application', 7d)
+| where Message contains 'Service stopped'

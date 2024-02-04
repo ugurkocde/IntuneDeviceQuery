@@ -1,0 +1,6 @@
+Use Case: Extract information about the CPU's architecture, core count, and logical processor count. This can be useful for understanding the computing capabilities of the device.
+
+Query:
+
+Cpu
+| project Architecture, CoreCount, LogicalProcessorCount

@@ -1,0 +1,7 @@
+Use Case: 
+
+Query:
+
+WindowsEvent('Application', 7d)
+| where Message contains 'License Activation'
+| where Level == 'ERROR'

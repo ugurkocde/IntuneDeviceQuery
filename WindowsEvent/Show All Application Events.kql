@@ -1,0 +1,5 @@
+Use Case: Quickly review all application-related events from the Windows Event Log that occurred within the last day to troubleshoot a reported issue.
+
+Query:
+
+WindowsEvent('Application', 7d)

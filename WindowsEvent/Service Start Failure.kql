@@ -1,0 +1,2 @@
+WindowsEvent('System', 7d)
+| where tostring( EventId) == '7000'

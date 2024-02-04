@@ -1,0 +1,6 @@
+Use Case:
+
+Query:
+
+WindowsEvent('Security', 7d)
+| where Message contains 'primary token was assigned'

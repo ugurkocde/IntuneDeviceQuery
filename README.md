@@ -21,7 +21,7 @@ Device query allows you to quickly gain on-demand information about the state of
 
 Details:
 
-Device Query -> [Device query](https://learn.microsoft.com/en-us/mem/analytics/device-query)
+Device Query -> [Device Query](https://learn.microsoft.com/en-us/mem/analytics/device-query)
 
 Data Platform Schema -> [Data Platform Schema](https://learn.microsoft.com/en-us/mem/analytics/data-platform-schema)
 
@@ -40,5 +40,7 @@ Data Platform Schema -> [Data Platform Schema](https://learn.microsoft.com/en-us
 ![How To Image](media/howto.png)
 
 # Contributing
+
+Create a Issue or Pull Request if you want to add a new query or have a idea for one that could be useful for everyone.
 
 Feel free to fork the repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.

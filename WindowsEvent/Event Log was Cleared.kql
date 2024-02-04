@@ -1,0 +1,2 @@
+WindowsEvent('Security', 7d)
+| where tostring(EventId) == '1102'

@@ -1,0 +1,6 @@
+Use Case: Query to find the current clock speed, maximum clock speed, and status of the CPU. This can help in understanding if the CPU is being throttled or if it's operating normally.
+
+Query:
+
+Cpu
+| project CurrentClockSpeed, MaxClockSpeed, CpuStatus

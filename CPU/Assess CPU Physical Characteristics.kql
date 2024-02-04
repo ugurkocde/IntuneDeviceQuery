@@ -1,0 +1,6 @@
+Use Case: Gather information on the processor type, socket designation, and address width. This could be relevant for hardware upgrades or compatibility checks.
+
+Query:
+
+Cpu
+| project ProcessorType, SocketDesignation, AddressWidth
