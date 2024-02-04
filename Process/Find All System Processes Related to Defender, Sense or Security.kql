@@ -1,0 +1,4 @@
+Author: Niklas Tinner (@NiklasTinner)
+
+Process
+| where ProcessName contains 'Defender' or ProcessName contains 'Sense' or ProcessName contains 'Security'

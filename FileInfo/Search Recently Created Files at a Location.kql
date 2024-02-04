@@ -1,0 +1,4 @@
+Author: Niklas Tinner (@NiklasTinner)
+
+FileInfo('C:\Windows\*')
+| order by CreatedDateTime desc

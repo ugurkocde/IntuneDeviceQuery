@@ -1,0 +1,4 @@
+Author: Niklas Tinner (@NiklasTinner)
+
+WindowsEvent('Application', 1h)
+| summarize count() by Level

@@ -1,0 +1,4 @@
+Author: Niklas Tinner (@NiklasTinner)
+
+WindowsAppCrashEvent
+| summarize count() by AppName, AppVersion

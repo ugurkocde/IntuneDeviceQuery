@@ -1,0 +1,4 @@
+Author: Niklas Tinner (@NiklasTinner)
+
+Tpm
+| where SpecVersion contains '2.0'

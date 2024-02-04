@@ -1,0 +1,3 @@
+Author: Niklas Tinner (@NiklasTinner)
+
+WindowsRegistry('HKEY_LOCAL_MACHINE\SOFTWARE\*')

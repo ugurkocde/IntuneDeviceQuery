@@ -1,0 +1,5 @@
+Author: Niklas Tinner (@NiklasTinner)
+
+WindowsEvent('System', 1h)
+| where EventId == 3 // look up only event ID 3 (Service Started)
+| order by LoggedDateTime desc
