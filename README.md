@@ -83,13 +83,16 @@ Create a Issue or Pull Request if you want to add a new query or have a idea for
 
 Feel free to fork the repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
-# Query Examples
+# License
 
-Each query in this repository includes:
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-- Use case description
-- Query syntax
-- Expected results
-- Additional context where needed
+# Acknowledgments
 
-Example:
+- Microsoft Intune Documentation
+- Community Contributors
+- Microsoft Tech Community
+
+---
+
+Made with ❤️ by [Ugur Koc](https://github.com/ugurkocde)
