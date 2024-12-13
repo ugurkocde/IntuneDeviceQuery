@@ -14,9 +14,44 @@
 
 # Overview
 
-This repository contains a wide array of KQL Queries ready for you to easily copy, paste, and execute within Intune.
+This repository contains a comprehensive collection of KQL (Kusto Query Language) queries specifically designed for Microsoft Intune Device Query. These queries are ready to use and cover various aspects of device management, monitoring, and troubleshooting.
 
 You can find more KQL Queries here -> [KQLSearch.com](https://www.KQLSearch.com)
+
+# Categories
+
+- **System Information**
+
+  - BIOS Details
+  - CPU Information
+  - Disk Drive Details
+  - Logical Drive Information
+
+- **Security & Certificates**
+
+  - Certificate Management
+  - Windows Security Events
+  - Driver Signature Verification
+  - User Access & Permissions
+
+- **Process & Performance**
+
+  - Process Monitoring
+  - Memory Usage Analysis
+  - Disk I/O Tracking
+  - CPU Performance
+
+- **Windows Events**
+
+  - Application Crashes
+  - System Events
+  - Security Auditing
+  - Service Status
+
+- **Registry & Configuration**
+  - Startup Programs
+  - Registry Analysis
+  - System Configuration
 
 # What is Device Query in Intune?
 
@@ -47,3 +82,14 @@ Data Platform Schema -> [Data Platform Schema](https://learn.microsoft.com/en-us
 Create a Issue or Pull Request if you want to add a new query or have a idea for one that could be useful for everyone.
 
 Feel free to fork the repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
+
+# Query Examples
+
+Each query in this repository includes:
+
+- Use case description
+- Query syntax
+- Expected results
+- Additional context where needed
+
+Example:
