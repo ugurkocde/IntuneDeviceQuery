@@ -1,7 +1,4 @@
-Use Case: Monitoring and identifying the most frequently executed processes on a system for a given day.
-
-Query:
-
+// Use Case: Monitoring and identifying the most frequently executed processes on a system for a given day.
 Process
 | where isnotnull(ProcessName) and isnotnull(StartDateTime) // Ensure fields are not null
 | summarize Count = count() by ProcessName, bin(StartDateTime, 1d) // Aggregate counts by day and ProcessName

@@ -1,0 +1,6 @@
+// Use Case: Identifying and prioritizing processes with high on-disk working set size for system resource optimization.
+Process
+| where DiskBytesRead > 50000000 or DiskBytesWritten > 50000000
+| project ProcessName, ProcessId, DiskBytesRead, DiskBytesWritten
+| order by DiskBytesRead desc, DiskBytesWritten desc
+| take 5

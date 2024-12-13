@@ -1,6 +1,3 @@
-Use Case: Show all BIOS related informations.
-
-Query:
-
+// Use Case: Show all BIOS related informations.
 BiosInfo
 | project Manufacturer, ReleaseDateTime, SerialNumber, SmBiosVersion

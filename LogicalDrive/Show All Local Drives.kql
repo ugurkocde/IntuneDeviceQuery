@@ -1,5 +1,2 @@
-Author: Niklas Tinner (@NiklasTinner)
-
-Use Case: List all local drives on this Windows PC
-
+// Use Case: List all local drives on this Windows PC
 LogicalDrive

@@ -1,6 +1,3 @@
-Use Case: Gather information on the processor type, socket designation, and address width. This could be relevant for hardware upgrades or compatibility checks.
-
-Query:
-
+// Use Case: Gather information on the processor type, socket designation, and address width. This could be relevant for hardware upgrades or compatibility checks.
 Cpu
 | project ProcessorType, SocketDesignation, AddressWidth

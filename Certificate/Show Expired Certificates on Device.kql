@@ -1,7 +1,4 @@
-Use Case: Identifying expired certificates to prevent security vulnerabilities and ensure continuous encrypted communication.
-
-Query:
-
+// Use Case: Identifying expired certificates to prevent security vulnerabilities and ensure continuous encrypted communication.
 Certificate
 | where ValidToDateTime < now()
 | project ValidToDateTime, SubjectName, CommonName

@@ -1,7 +1,4 @@
-Use Case: Identifying processes initiated by system accounts for security auditing or anomaly detection.
-
-Query:
-
+// Use Case: Identifying processes initiated by system accounts for security auditing or anomaly detection.
 Process
 | where WindowsUserAccount startswith 'NT AUTHORITY'
 | project ProcessId, ProcessName, Path, CommandLine, WindowsUserAccount, StartDateTime

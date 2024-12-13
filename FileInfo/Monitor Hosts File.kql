@@ -1,6 +1,3 @@
-Use Case: The hosts file located at C:\Windows\System32\drivers\etc\hosts is utilized for DNS resolution. Alterations made to this file have the capability to reroute network traffic or prevent software updates from occurring.
-
-Query:
-
+// Use Case: The hosts file located at C:\Windows\System32\drivers\etc\hosts is utilized for DNS resolution. Alterations made to this file have the capability to reroute network traffic or prevent software updates from occurring.
 FileInfo('c:\windows\system32\drivers\etc\hosts') 
 | project Path, FileName, SizeBytes, LastModifiedDateTime, Attributes

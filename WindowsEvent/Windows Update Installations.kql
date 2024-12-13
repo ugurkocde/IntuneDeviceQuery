@@ -1,6 +1,3 @@
-Use Case: Identifying system-related events with Event ID 19 within the last 7 days for IT security auditing purposes.
-
-Query:
-
+// Use Case: Identifying system-related events with Event ID 19 within the last 7 days for IT security auditing purposes.
 WindowsEvent('System', 7d)
 | where tostring(EventId) == '19'

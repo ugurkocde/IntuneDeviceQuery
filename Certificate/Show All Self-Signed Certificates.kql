@@ -1,7 +1,4 @@
-Use Case: Identifying self-signed certificates in a network to assess security risks.
-
-Query:
-
+// Use Case: Identifying self-signed certificates in a network to assess security risks.
 Certificate
 | where SelfSigned == true
 | project SubjectName, CommonName, SelfSigned

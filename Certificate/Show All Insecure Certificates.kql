@@ -1,7 +1,4 @@
-Use Case: Identifying outdated or potentially insecure digital certificates that use SHA-1 or MD5 hashing algorithms for a cybersecurity audit.
-
-Query:
-
+// Use Case: Identifying outdated or potentially insecure digital certificates that use SHA-1 or MD5 hashing algorithms for a cybersecurity audit.
 Certificate
 | where SigningAlgorithm contains 'sha1' or SigningAlgorithm contains 'md5'
 | project SigningAlgorithm, SubjectName, CommonName, SelfSigned

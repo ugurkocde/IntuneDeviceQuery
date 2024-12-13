@@ -1,0 +1,3 @@
+// Use Case: Identifying programs set to auto-run at startup for system analysis and security auditing.
+WindowsRegistry('HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Run')
+| project RegistryKey, ValueName, ValueType, ValueData

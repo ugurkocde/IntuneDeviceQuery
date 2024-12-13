@@ -1,6 +1,3 @@
-Use Case: Identifying unsigned drivers in a Windows operating system for security auditing and compliance.
-
-Query:
-
+// Use Case: Identifying unsigned drivers in a Windows operating system for security auditing and compliance.
 WindowsDriver
 | where Signed != true

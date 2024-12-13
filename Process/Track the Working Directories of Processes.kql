@@ -1,7 +1,4 @@
-Use Case: Analyzing and auditing system processes for security or operational efficiency by listing their names, IDs, working directories, start times, and command lines in chronological order.
-
-Query: 
-
+// Use Case: Analyzing and auditing system processes for security or operational efficiency by listing their names, IDs, working directories, start times, and command lines in chronological order.
 Process
 | project ProcessName, ProcessId, CurrentWorkingDirectory, StartDateTime, CommandLine
 | where isnotnull(CurrentWorkingDirectory) and CurrentWorkingDirectory != '' // Filter out null or empty working directories

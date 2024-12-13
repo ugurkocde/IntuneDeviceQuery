@@ -1,7 +1,4 @@
-Use Case: Monitoring and analyzing the execution of processes on a computer to identify and investigate potential security threats or system performance issues.
-
-Query:
-
+// Use Case: Monitoring and analyzing the execution of processes on a computer to identify and investigate potential security threats or system performance issues.
 Process
 | project ProcessName, CommandLine, StartDateTime
 | where isnotnull(CommandLine) and CommandLine != '' // Filter out empty or null command lines

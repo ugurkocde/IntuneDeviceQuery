@@ -1,0 +1,4 @@
+// Identify BIOS versions older than 1 year
+BiosInfo
+| where ReleaseDateTime < ago(365d)
+| project Manufacturer, SmBiosVersion, ReleaseDateTime

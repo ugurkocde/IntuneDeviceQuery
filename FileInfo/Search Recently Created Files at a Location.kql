@@ -1,4 +1,3 @@
-Author: Niklas Tinner (@NiklasTinner)
-
+// Use Case: Search recently created files at a location
 FileInfo('C:\Windows\*')
 | order by CreatedDateTime desc

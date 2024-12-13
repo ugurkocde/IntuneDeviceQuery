@@ -1,7 +1,4 @@
-Use Case: Filtering and sorting processes to identify and analyze non-system processes running on a Windows computer.
-
-Query:
-
+// Use Case: Filtering and sorting processes to identify and analyze non-system processes running on a Windows computer.
 Process
 | where not(Path contains 'C:\\Windows\\' 
             or Path contains 'C:\\Program Files\\'

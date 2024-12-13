@@ -1,12 +1,15 @@
 # Intune Device Query - KQL Queries
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/ugurkocde/" target="_blank">
-    <img src="https://img.shields.io/badge/Connect on LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  <a href="https://twitter.com/UgurKocDe" target="_blank">
-    <img src="https://img.shields.io/badge/Follow on X (Twitter)-black?style=for-the-badge&logo=x&logoColor=white" alt="Twitter Badge"/>
-  </a>
+  <p>
+    <a href="https://twitter.com/UgurKocDe">
+      <img src="https://img.shields.io/badge/Follow-@UgurKocDe-1DA1F2?style=flat&logo=x&logoColor=white" alt="Twitter Follow"/>
+    </a>
+    <a href="https://www.linkedin.com/in/ugurkocde/">
+      <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin" alt="LinkedIn"/>
+    </a>
+    <img src="https://img.shields.io/github/license/ugurkocde/IntuneAssignmentChecker?style=flat" alt="License"/>
+  </p>
 </div>
 
 # Overview

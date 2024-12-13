@@ -1,7 +1,4 @@
-Use Case: Identifying and analyzing the processes within a system that have experienced the longest durations, helping prioritize optimization efforts.
-
-Query:
-
+// Use Case: Identifying and analyzing the processes within a system that have experienced the longest durations, helping prioritize optimization efforts.
 Process
 | project ProcessName, StartDateTime, ElapsedTimeInMinutes = ElapsedTimeMilliseconds / 60000, ElapsedTimeMilliseconds
 | where ElapsedTimeMilliseconds > 0 // Ensures we focus on processes that have started and have a measurable duration

@@ -1,6 +1,3 @@
-Use Case: Monitoring and ensuring the security of SSL certificates across different store locations by tracking their common and subject names.
-
-Query:
-
+// Use Case: Monitoring and ensuring the security of SSL certificates across different store locations by tracking their common and subject names.
 Certificate
 | project StoreLocation, CommonName, SubjectName

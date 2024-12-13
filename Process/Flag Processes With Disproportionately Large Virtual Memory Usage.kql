@@ -1,0 +1,5 @@
+// Use Case: Identifying processes with disproportionately large virtual memory usage for system resource optimization.
+Process
+| where TotalSizeBytes > 10 * WorkingSetSizeBytes
+| project ProcessName, ProcessId, WorkingSetSizeBytes, TotalSizeBytes
+| order by TotalSizeBytes desc

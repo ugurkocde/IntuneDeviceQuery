@@ -1,7 +1,4 @@
-Use Case: Identifying and extracting information on certificate authorities.
-
-Query:
-
+// Use Case: Identifying and extracting information on certificate authorities.
 Certificate
 | where IsCa == true
 | project IsCa, CommonName, SubjectName

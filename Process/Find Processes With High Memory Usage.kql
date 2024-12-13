@@ -1,7 +1,4 @@
-Use Case: Analyze and identify processes by their average, maximum, and minimum memory usage in order to pinpoint memory-intensive applications for optimization or troubleshooting purposes.
-
-Query:
-
+// Use Case: Analyze and identify processes by their average, maximum, and minimum memory usage in order to pinpoint memory-intensive applications for optimization or troubleshooting purposes.
 Process
 | summarize AvgMemoryUsageBytes=avg(WorkingSetSizeBytes), MaxMemoryUsageBytes=max(WorkingSetSizeBytes), MinMemoryUsageBytes=min(WorkingSetSizeBytes) by ProcessName
 | order by AvgMemoryUsageBytes desc

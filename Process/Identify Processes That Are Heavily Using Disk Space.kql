@@ -1,7 +1,4 @@
-Use Case: Identifying and prioritizing processes with high on-disk working set size for system resource optimization.
-
-Query:
-
+// Use Case: Identifying and prioritizing processes with high on-disk working set size for system resource optimization.
 Process
 | where OnDisk == true
 | project ProcessName, Path, WorkingSetSizeMB = WorkingSetSizeBytes / (1024 * 1024), OnDisk

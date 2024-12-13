@@ -1,0 +1,5 @@
+// Use Case: Identifying processes with unusually high thread or handle counts for performance analysis and optimization.
+Process
+| where ThreadCount > 100 or HandleCount > 1000
+| project ProcessName, ProcessId, ThreadCount, HandleCount, Path
+| order by ThreadCount desc, HandleCount desc

@@ -1,5 +1,2 @@
-Author: Niklas Tinner (@NiklasTinner)
-
-Use Case: Retrieving all software-related configurations and settings from the Windows Registry for system audit or software inventory purposes.
-
+// Use Case: Retrieving all software-related configurations and settings from the Windows Registry for system audit or software inventory purposes.
 WindowsRegistry('HKEY_LOCAL_MACHINE\SOFTWARE\*')

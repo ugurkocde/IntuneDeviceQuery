@@ -1,7 +1,4 @@
-Use Case: Identifying the most frequently running processes on a system for performance analysis or optimization.
-
-Query:
-
+// Use Case: Identifying the most frequently running processes on a system for performance analysis or optimization.
 Process
 | summarize Count=count() by ProcessName
 | order by Count

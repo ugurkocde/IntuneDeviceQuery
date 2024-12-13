@@ -1,6 +1,3 @@
-Author: Niklas Tinner (@NiklasTinner)
-
-Use Case: Identifying the most frequently crashing applications and their versions in a Windows environment for targeted troubleshooting and software updates.
-
+// Use Case: Identifying the most frequently crashing applications and their versions in a Windows environment for targeted troubleshooting and software updates.
 WindowsAppCrashEvent
 | summarize count() by AppName, AppVersion
