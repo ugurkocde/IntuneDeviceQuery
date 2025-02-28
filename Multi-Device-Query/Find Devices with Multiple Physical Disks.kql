@@ -1,0 +1,3 @@
+DiskDrive
+| summarize DiskCount=count() by Device
+| where DiskCount > 1

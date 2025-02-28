@@ -1,0 +1,3 @@
+EncryptableVolume
+| where WindowsDriveLetter == "C:" and ProtectionStatus != "PROTECTED"
+| project Device, WindowsDriveLetter, ProtectionStatus, EncryptionMethod, EncryptionPercentage

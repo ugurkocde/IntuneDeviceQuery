@@ -1,0 +1,9 @@
+
+OsVersion
+| join (
+WindowsQfe
+| summarize LastPatchDate = max(InstalledDate) by Device
+) on Device
+| where InstallDateTime < ago(1095d) 
+| project Device, OsName, InstallDateTime, LastPatchDate,
+DaysSinceLastPatch = datetime_diff('day', now(), LastPatchDate)

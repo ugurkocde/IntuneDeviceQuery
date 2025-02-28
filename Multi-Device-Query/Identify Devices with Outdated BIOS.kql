@@ -1,0 +1,3 @@
+BiosInfo
+| where ReleaseDateTime < ago(365d)
+| project Device, Manufacturer, SmBiosVersion, ReleaseDateTime

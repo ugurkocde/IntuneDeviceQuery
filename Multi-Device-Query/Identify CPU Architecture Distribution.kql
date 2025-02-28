@@ -1,0 +1,2 @@
+Cpu
+| summarize DeviceCount=count() by Architecture, Manufacturer, Model
