@@ -1,3 +1,4 @@
+// This query identifies devices that have more than one physical disk.
 DiskDrive
 | summarize DiskCount=count() by Device
 | where DiskCount > 1

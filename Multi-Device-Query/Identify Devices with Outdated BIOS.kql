@@ -1,3 +1,4 @@
+// This query identifies devices with a BIOS release date older than 1 year.
 BiosInfo
 | where ReleaseDateTime < ago(365d)
 | project Device, Manufacturer, SmBiosVersion, ReleaseDateTime

@@ -1,2 +1,3 @@
+// This query summarizes the distribution of CPU architectures across devices.
 Cpu
 | summarize DeviceCount=count() by Architecture, Manufacturer, Model

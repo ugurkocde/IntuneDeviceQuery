@@ -1,4 +1,4 @@
-
+// This query identifies devices with an OS installation older than 3 years and calculates the number of days since the last patch.
 OsVersion
 | join (
 WindowsQfe
